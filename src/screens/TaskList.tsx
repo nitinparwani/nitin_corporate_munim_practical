@@ -78,6 +78,7 @@ const TaskList = ({ navigation }: { navigation: any }) => {
             <Text style={{ padding: 10, borderBottomWidth: 1 }}>
               {item?.completed ? '✅' : '❌'}
               {item?.title}
+              
             </Text>
           </TouchableOpacity>
         )}
